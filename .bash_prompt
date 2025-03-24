@@ -1,0 +1,10 @@
+# .bash_prompt
+# Sourced by .bashrc to create my PS1 prompt
+# The one in /root has a different color for the user
+
+
+#2 line color prompt (root)
+#export PS1="┌──[\[\e[31m\]\u\[\e[m\]@\[\e[36m\]\h\[\e[m\]] \d, \[\e[36m\]\T\[\e[m\] [\e[31m\]\w\[\e[m\]] \n└──[ <\[\e[5;31m\]\\$\[\e[m\]> "
+
+#2 line color prompt (user)
+export PS1="┌──[\[\e[1;33m\]\u\[\e[m\]@\[\e[36m\]\h\[\e[m\]] \d, \[\e[36m\]\T\[\e[m\] [\e[1;33m\]\w\[\e[m\]] \n└──[ <\[\e[1;5;33m\]\\$\[\e[m\]> "
